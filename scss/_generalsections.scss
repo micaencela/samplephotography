@@ -1,0 +1,199 @@
+.home { 
+	background-color:#fff;
+	text-align:center;
+	padding:1em;
+	.home-content {
+		.hero-image {
+			img {
+				width: 50%;
+			}
+		}
+	}
+}
+
+.about {
+	background-color:#fff;
+	text-align:center;
+	// height:500px;
+
+}
+
+.portfolio {
+	background-color:#fff;
+	text-align:center;
+}
+
+.contact {
+	background-color:#fff;
+	text-align:center;
+}
+
+.content {
+	padding-top: 3em;
+	padding-bottom: 1.5em;
+}
+
+
+//About
+
+.featured-content {
+	h4 {
+		margin-top:0.35em;
+	}
+}
+
+.about-info {
+	background-color:#BEADC0;
+	border-radius:2px;
+	padding:1.5em;
+	p {
+		color:#fff;
+	}
+}
+
+//Portfolio
+
+.portfolio-box {
+	.portfolio-content {
+		position:relative;
+		img {
+			opacity:1;
+			height:200px;
+			width:95%;
+			margin-top:1em;
+			display:block;
+			transition:0.5s ease;
+			backface-visibility:hidden;
+		}
+	}
+}
+
+.portfolio-box:hover img {
+	opacity:0.3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle {
+	.text {
+		a {
+			color:black !important;
+		}
+
+	}
+}
+
+.portfolio-box:hover .middle {
+  opacity: 1;
+}
+//Contact Form
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p {
+  color: #999;
+  margin-bottom:1em;;
+  text-align:center;
+}
+
+strong {
+  color: #333;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+  padding-top:0;
+
+}
+
+.page-head-image img {
+  border-radius: 50%;
+}
+
+#form-trabalhe {
+  margin-top: 30px;
+  text-align: left;
+}
+
+label {
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+input {
+  border: 2px solid #CCC !important;
+  height: 35px;
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+.input-group-addon {
+  border: 2px solid #CCC !important;
+  border-right: 0px !important;
+}
+
+.btn {
+  border: 0;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+// #form-work {
+// 	border:1px solid black;
+// 	padding:1em;
+// 	border-radius:4px;
+// }
+
+//Footer
+
+.footer {
+	height:5em;
+	background-color:#BEADC0;
+	p {
+		color:#FFF;
+		padding-top:1em;
+		margin-bottom:5px;
+	}
+}
+
+.social-media {
+	width:80px;
+	margin:auto;
+	i {
+		font-size:25px;
+		text-align:center;
+	}
+}
+
+.social-media {
+	a {
+		color:#FFF;
+	}
+	a:hover {
+		color: #eee;
+	}
+}
